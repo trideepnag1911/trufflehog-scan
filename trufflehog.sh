@@ -8,3 +8,5 @@ else
     echo "Running Trufflehog without exclude path filters on Workspace $GITHUB_WORKSPACE"
     trufflehog $GITHUB_WORKSPACE
 fi
+
+ls -lrt $GITHUB_WORKSPACE/

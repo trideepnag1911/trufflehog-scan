@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/usr/bin/env sh
 set -e
 
 if [[ -f "$EXCLUDE_PATH" ]]; then

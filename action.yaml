@@ -1,0 +1,12 @@
+name: "Trufflehog Scan"
+description: "Scan Github repository for secrets"
+author: "Trideep Nag <trideepnag@gmail.com>"
+inputs:
+  exclude_path:  
+    description: 'Path requires to exclude from scanning'
+    required: false
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.exclude_path }}

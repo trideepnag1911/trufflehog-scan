@@ -1,7 +1,7 @@
 # Secret Scan using TruffleHog
 Scan your entire repository to find stored secret, keys, password or certificate using TruffleHog
 
-# Example
+# Uage
 ```yaml
 on: push
 name: Scan secret using TruffleHog
@@ -17,7 +17,7 @@ jobs:
 
 ```
 
-## Example with path filters
+## usage with exclude path
 
 ```yaml
 on: push

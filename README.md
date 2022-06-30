@@ -1,1 +1,1 @@
-# trufflehog-scan
+Secret Scan using TruffleHog
